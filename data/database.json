@@ -1,0 +1,745 @@
+{
+  "deals": [
+    {
+      "id": "deal-1",
+      "name": "Aurora Solutions - Core Banking Modernization",
+      "company": "Aurora Solutions",
+      "value": 25000000,
+      "currency": "INR",
+      "stage": "Discovery",
+      "probability": 45,
+      "owner": "Alex Morgan",
+      "closeDate": "2026-11-30",
+      "priority": "High",
+      "health": 72,
+      "risk": "Medium Risk",
+      "industry": "Financial Services",
+      "description": "Cloud native ledger replacement and API gateway integration for Tier-1 private bank partner.",
+      "pipeline": "Enterprise Pipeline",
+      "lastContactDaysAgo": 0,
+      "daysInStage": 14,
+      "createdAt": "2026-08-10T10:00:00Z",
+      "updatedAt": "2026-09-28T16:35:28.881Z"
+    },
+    {
+      "id": "deal-2",
+      "name": "Northwind Labs - AI Diagnostics Infrastructure",
+      "company": "Northwind Labs",
+      "value": 12000000,
+      "currency": "INR",
+      "stage": "Qualification",
+      "probability": 30,
+      "owner": "Sarah Jenkins",
+      "closeDate": "2026-12-15",
+      "priority": "Medium",
+      "health": 58,
+      "risk": "Weak Engagement",
+      "industry": "Healthcare Tech",
+      "description": "Scalable GPU inference cluster and compliant data lakehouse for genomic sequencing.",
+      "pipeline": "Enterprise Pipeline",
+      "lastContactDaysAgo": 8,
+      "daysInStage": 12,
+      "createdAt": "2026-08-22T09:15:00Z",
+      "updatedAt": "2026-09-22T11:00:00Z"
+    },
+    {
+      "id": "deal-3",
+      "name": "Flexion Enterprises - Omni-Channel Supply Chain",
+      "company": "Flexion Enterprises",
+      "value": 20000000,
+      "currency": "INR",
+      "stage": "Proposal",
+      "probability": 60,
+      "owner": "Alex Morgan",
+      "closeDate": "2026-10-31",
+      "priority": "Critical",
+      "health": 48,
+      "risk": "High Risk",
+      "industry": "Retail & Logistics",
+      "description": "Warehouse execution system integration with real-time fleet telematics tracking across 40 hubs.",
+      "pipeline": "Enterprise Pipeline",
+      "lastContactDaysAgo": 21,
+      "daysInStage": 21,
+      "createdAt": "2026-07-15T14:20:00Z",
+      "updatedAt": "2026-09-18T16:45:00Z"
+    },
+    {
+      "id": "deal-4",
+      "name": "Omega Corp - Autonomous Security Orchestration",
+      "company": "Omega Corp",
+      "value": 17500000,
+      "currency": "INR",
+      "stage": "Negotiation",
+      "probability": 75,
+      "owner": "David Rao",
+      "closeDate": "2026-10-15",
+      "priority": "High",
+      "health": 65,
+      "risk": "Silence",
+      "industry": "Cybersecurity",
+      "description": "SOC automation with AI incident triaging replacing legacy SIEM connectors.",
+      "pipeline": "Enterprise Pipeline",
+      "lastContactDaysAgo": 15,
+      "daysInStage": 9,
+      "createdAt": "2026-06-30T11:00:00Z",
+      "updatedAt": "2026-09-25T17:00:00Z"
+    },
+    {
+      "id": "deal-5",
+      "name": "Globex Corporation - Global Telephony Migration",
+      "company": "Globex Corporation",
+      "value": 21000000,
+      "currency": "INR",
+      "stage": "Closed Won",
+      "probability": 100,
+      "owner": "Sarah Jenkins",
+      "closeDate": "2026-09-15",
+      "priority": "Medium",
+      "health": 95,
+      "risk": "Won",
+      "industry": "Telecommunications",
+      "description": "Enterprise SIP trunking and WebRTC collaboration suite deployed to 12,000 employees.",
+      "pipeline": "Apollo Pipeline",
+      "lastContactDaysAgo": 2,
+      "daysInStage": 14,
+      "createdAt": "2026-05-10T08:30:00Z",
+      "updatedAt": "2026-09-15T18:00:00Z"
+    },
+    {
+      "id": "deal-6",
+      "name": "Vertex Digital - Customer Experience Engine",
+      "company": "Vertex Digital",
+      "value": 15000000,
+      "currency": "INR",
+      "stage": "Discovery",
+      "probability": 50,
+      "owner": "Alex Morgan",
+      "closeDate": "2026-11-20",
+      "priority": "High",
+      "health": 52,
+      "risk": "Stalled",
+      "industry": "E-commerce",
+      "description": "Real-time personalization and semantic product recommendation engine.",
+      "pipeline": "Apollo Pipeline",
+      "lastContactDaysAgo": 12,
+      "daysInStage": 18,
+      "createdAt": "2026-08-01T13:40:00Z",
+      "updatedAt": "2026-09-24T10:15:00Z"
+    },
+    {
+      "id": "deal-7",
+      "name": "BluePeak Systems - Hybrid Multi-Cloud Governance",
+      "company": "BluePeak Systems",
+      "value": 6000000,
+      "currency": "INR",
+      "stage": "Qualification",
+      "probability": 40,
+      "owner": "David Rao",
+      "closeDate": "2026-12-05",
+      "priority": "Medium",
+      "health": 85,
+      "risk": "Low Risk",
+      "industry": "Enterprise Software",
+      "description": "FinOps cost observability and policy compliance guardrails for AWS and Azure.",
+      "pipeline": "SMB Pipeline",
+      "lastContactDaysAgo": 4,
+      "daysInStage": 7,
+      "createdAt": "2026-09-01T15:00:00Z",
+      "updatedAt": "2026-09-26T12:00:00Z"
+    },
+    {
+      "id": "deal-8",
+      "name": "InnovaTech - Edge IoT Telemetry Ingestion",
+      "company": "InnovaTech",
+      "value": 9500000,
+      "currency": "INR",
+      "stage": "Discovery",
+      "probability": 45,
+      "owner": "Sarah Jenkins",
+      "closeDate": "2026-11-10",
+      "priority": "Medium",
+      "health": 60,
+      "risk": "Weak Engagement",
+      "industry": "Industrial IoT",
+      "description": "MQTT sensor ingestion and predictive anomaly detection for manufacturing lines.",
+      "pipeline": "Enterprise Pipeline",
+      "lastContactDaysAgo": 9,
+      "daysInStage": 11,
+      "createdAt": "2026-08-28T10:30:00Z",
+      "updatedAt": "2026-09-23T16:20:00Z"
+    }
+  ],
+  "stakeholders": [
+    {
+      "id": "sh-1",
+      "dealId": "deal-1",
+      "name": "Rajesh Subramanian",
+      "role": "Decision Maker",
+      "title": "Chief Information & Technology Officer",
+      "influence": "Key Decision Maker",
+      "sentiment": "Skeptical",
+      "decisionRole": "Budget & Architectural Sign-off",
+      "email": "rajesh.s@aurorasolutions.io",
+      "phone": "+91 98201 44521",
+      "notes": "Concerned about migration downtime and legacy core banking compatibility. Stated clearly in meeting 2 that data residency must stay in Mumbai region.",
+      "relationshipStatus": "Needs Executive Sponsor Alignment",
+      "createdAt": "2026-08-10T10:00:00Z",
+      "updatedAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "sh-2",
+      "dealId": "deal-1",
+      "name": "Pooja Kulkarni",
+      "role": "Champion",
+      "title": "Head of Digital Channels",
+      "influence": "High",
+      "sentiment": "Positive",
+      "decisionRole": "Business Sponsor",
+      "email": "pooja.k@aurorasolutions.io",
+      "phone": "+91 98402 11983",
+      "notes": "Pooja loves our developer ergonomics and low latency APIs. Wants pilot live by Q1 2027 to satisfy RBI digital banking push.",
+      "relationshipStatus": "Strong Supporter",
+      "createdAt": "2026-08-10T10:00:00Z",
+      "updatedAt": "2026-09-18T14:00:00Z"
+    },
+    {
+      "id": "sh-3",
+      "dealId": "deal-1",
+      "name": "Vikram Merchant",
+      "role": "Blocker",
+      "title": "VP of Information Security & Compliance",
+      "influence": "High",
+      "sentiment": "Hostile",
+      "decisionRole": "Security & InfoSec Sign-off",
+      "email": "vikram.m@aurorasolutions.io",
+      "phone": "+91 99304 88712",
+      "notes": "Strong bias toward on-premise solutions. Pointed out that competitor Tata Consultancy / Finacle has existing master service agreement.",
+      "relationshipStatus": "Critical Risk - Requires CISO-to-CISO Session",
+      "createdAt": "2026-08-15T11:00:00Z",
+      "updatedAt": "2026-09-19T16:30:00Z"
+    },
+    {
+      "id": "sh-4",
+      "dealId": "deal-3",
+      "name": "Amitabh Sen",
+      "role": "Decision Maker",
+      "title": "Executive Vice President of Operations",
+      "influence": "Key Decision Maker",
+      "sentiment": "Neutral",
+      "decisionRole": "Commercial Approval",
+      "email": "amitabh.sen@flexion.co.in",
+      "phone": "+91 98111 23456",
+      "notes": "Evaluating our proposal against Manhattan Associates. Budget cap is ₹1.8 Cr; our quote is ₹2.0 Cr.",
+      "relationshipStatus": "Pending Commercial Revision",
+      "createdAt": "2026-07-20T10:00:00Z",
+      "updatedAt": "2026-09-18T10:00:00Z"
+    },
+    {
+      "id": "sh-5",
+      "dealId": "deal-4",
+      "name": "Neha Nair",
+      "role": "Champion",
+      "title": "Director of Cyber Defense",
+      "influence": "High",
+      "sentiment": "Positive",
+      "decisionRole": "Technical Evaluation Lead",
+      "email": "neha.n@omegacorp.com",
+      "phone": "+91 98765 43210",
+      "notes": "Completed POC with 98% accuracy on alert deduplication. Waiting for legal review on indemnification clauses.",
+      "relationshipStatus": "Very Engaged",
+      "createdAt": "2026-07-05T09:00:00Z",
+      "updatedAt": "2026-09-20T15:00:00Z"
+    }
+  ],
+  "interactions": [
+    {
+      "dealId": "deal-1",
+      "date": "2026-09-28T16:35:28.353Z",
+      "type": "Email",
+      "participants": [
+        "Alex Morgan",
+        "CITO Rajesh Subramanian",
+        "VP InfoSec Vikram Merchant"
+      ],
+      "summary": "Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.",
+      "keyPoints": [
+        "Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.",
+        "Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.",
+        "Proposed 15-minute executive briefing slot for next Tuesday."
+      ],
+      "objections": [
+        "KMS key escrow in public cloud (mitigated with BYOK blueprint)"
+      ],
+      "competitors": [
+        "Infosys Finacle",
+        "Oracle FLEXCUBE"
+      ],
+      "pricingDiscussion": "Reiterated standard enterprise tier with complimentary 24/7 TAM.",
+      "customerRequirements": [],
+      "commitments": [
+        "Alex to facilitate CISO-to-CISO architecture review."
+      ],
+      "nextSteps": [
+        "Await Vikram Merchants response on Tuesday briefing."
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "id": "int-1790613328353",
+      "createdAt": "2026-09-28T16:35:28.353Z"
+    },
+    {
+      "dealId": "deal-1",
+      "date": "2026-09-28T16:09:48.162Z",
+      "type": "Email",
+      "participants": [
+        "Alex Morgan",
+        "CITO Rajesh Subramanian",
+        "VP InfoSec Vikram Merchant"
+      ],
+      "summary": "Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.",
+      "keyPoints": [
+        "Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.",
+        "Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.",
+        "Proposed 15-minute executive briefing slot for next Tuesday."
+      ],
+      "objections": [
+        "KMS key escrow in public cloud (mitigated with BYOK blueprint)"
+      ],
+      "competitors": [
+        "Infosys Finacle",
+        "Oracle FLEXCUBE"
+      ],
+      "pricingDiscussion": "Reiterated standard enterprise tier with complimentary 24/7 TAM.",
+      "customerRequirements": [],
+      "commitments": [
+        "Alex to facilitate CISO-to-CISO architecture review."
+      ],
+      "nextSteps": [
+        "Await Vikram Merchants response on Tuesday briefing."
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "id": "int-1790611788163",
+      "createdAt": "2026-09-28T16:09:48.163Z"
+    },
+    {
+      "dealId": "deal-1",
+      "date": "2026-09-28T15:49:46.499Z",
+      "type": "Email",
+      "participants": [
+        "Alex Morgan",
+        "CITO Rajesh Subramanian",
+        "VP InfoSec Vikram Merchant"
+      ],
+      "summary": "Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.",
+      "keyPoints": [
+        "Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.",
+        "Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.",
+        "Proposed 15-minute executive briefing slot for next Tuesday."
+      ],
+      "objections": [
+        "KMS key escrow in public cloud (mitigated with BYOK blueprint)"
+      ],
+      "competitors": [
+        "Infosys Finacle",
+        "Oracle FLEXCUBE"
+      ],
+      "pricingDiscussion": "Reiterated standard enterprise tier with complimentary 24/7 TAM.",
+      "customerRequirements": [],
+      "commitments": [
+        "Alex to facilitate CISO-to-CISO architecture review."
+      ],
+      "nextSteps": [
+        "Await Vikram Merchants response on Tuesday briefing."
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "id": "int-1790610586505",
+      "createdAt": "2026-09-28T15:49:46.505Z"
+    },
+    {
+      "id": "int-1",
+      "dealId": "deal-1",
+      "date": "2026-08-12T11:00:00Z",
+      "type": "Meeting",
+      "participants": [
+        "Alex Morgan",
+        "Pooja Kulkarni",
+        "Rajesh Subramanian"
+      ],
+      "summary": "Initial discovery on core banking modernization and cloud migration.",
+      "keyPoints": [
+        "Aurora plans to migrate 8 million consumer accounts to hybrid cloud.",
+        "Target go-live is Q1 2027.",
+        "Strict RBI compliance and Indian data residency required."
+      ],
+      "objections": [
+        "High cost of implementation services",
+        "Fear of downtime during account cutover"
+      ],
+      "competitors": [
+        "Infosys Finacle",
+        "Oracle FLEXCUBE"
+      ],
+      "pricingDiscussion": "Budget ballpark discussed at ₹2.5 Cr annually inclusive of enterprise support.",
+      "customerRequirements": [
+        "Sub-50ms transaction latency",
+        "Active-active multi-region failover in Mumbai and Hyderabad"
+      ],
+      "commitments": [
+        "Alex to provide architectural security whitepaper and benchmark numbers by Aug 20"
+      ],
+      "nextSteps": [
+        "Schedule deep dive technical demo with security team"
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "createdAt": "2026-08-12T12:30:00Z"
+    },
+    {
+      "id": "int-2",
+      "dealId": "deal-1",
+      "date": "2026-08-25T15:00:00Z",
+      "type": "Demo",
+      "participants": [
+        "Alex Morgan",
+        "Sarah Jenkins",
+        "Rajesh Subramanian",
+        "Vikram Merchant"
+      ],
+      "summary": "Technical architecture demonstration and security review session.",
+      "keyPoints": [
+        "Demonstrated zero-downtime ledger re-indexing and audit logging.",
+        "Showcased hardware security module (HSM) encryption integration.",
+        "Vikram expressed hostility regarding public cloud key escrow."
+      ],
+      "objections": [
+        "Customer stated KMS keys must never leave their own dedicated on-prem hardware security modules.",
+        "Vikram claims competitor Finacle already has pre-approved RBI audit clearance."
+      ],
+      "competitors": [
+        "Infosys Finacle"
+      ],
+      "pricingDiscussion": "Vikram requested a 20% discount on upfront professional services.",
+      "customerRequirements": [
+        "Customer-managed KMS keys (BYOK/HYOK)",
+        "SOC-2 Type II and ISO 27001 audit package"
+      ],
+      "commitments": [
+        "Sarah to provide Bring-Your-Own-KMS integration architecture diagram."
+      ],
+      "nextSteps": [
+        "Deliver InfoSec responses to Vikram Merchant."
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "createdAt": "2026-08-25T16:45:00Z"
+    },
+    {
+      "id": "int-3",
+      "dealId": "deal-1",
+      "date": "2026-09-10T14:00:00Z",
+      "type": "Call",
+      "participants": [
+        "Alex Morgan",
+        "Pooja Kulkarni"
+      ],
+      "summary": "One-on-one catch-up with champion Pooja Kulkarni on internal alignment.",
+      "keyPoints": [
+        "Pooja confirmed CITO Rajesh is on board if InfoSec approval is granted.",
+        "Pooja warned that Vikram Merchant is meeting Oracle FLEXCUBE sales VP on Sept 28.",
+        "Budget for FY27 is getting locked on Oct 15; we must reach proposal stage before then."
+      ],
+      "objections": [
+        "Timeline urgency: if security approval slips past October, budget will be deferred to next year."
+      ],
+      "competitors": [
+        "Oracle FLEXCUBE"
+      ],
+      "pricingDiscussion": "Pooja suggested we include 24/7 dedicated Technical Account Manager at no extra cost to close deal.",
+      "customerRequirements": [
+        "Dedicated Indian TAM timezone coverage",
+        "Fixed price implementation guarantee"
+      ],
+      "commitments": [
+        "Alex promised to discuss complimentary TAM with sales VP and confirm in writing."
+      ],
+      "nextSteps": [
+        "Set up executive alignment call between our VP of Security and Vikram Merchant."
+      ],
+      "memoryRetained": true,
+      "memoryBankId": "deal-bank-deal-1",
+      "createdAt": "2026-09-10T15:10:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "dealId": "deal-1",
+      "stakeholderId": "sh-3",
+      "task": "Schedule CISO-to-CISO briefing with Vikram Merchant regarding Bring-Your-Own-Key encryption.",
+      "owner": "Alex Morgan",
+      "dueDate": "2026-10-02",
+      "priority": "High",
+      "status": "in_progress",
+      "createdAt": "2026-09-12T10:00:00Z",
+      "updatedAt": "2026-09-20T10:00:00Z"
+    },
+    {
+      "id": "task-2",
+      "dealId": "deal-1",
+      "stakeholderId": "sh-2",
+      "task": "Deliver formal approval for complimentary TAM (Technical Account Manager) to Pooja Kulkarni.",
+      "owner": "Alex Morgan",
+      "dueDate": "2026-09-30",
+      "priority": "High",
+      "status": "pending",
+      "createdAt": "2026-09-15T11:00:00Z",
+      "updatedAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "task-3",
+      "dealId": "deal-1",
+      "stakeholderId": "sh-1",
+      "task": "Submit revised proposal showing Mumbai data center compliance before Oct 15 budget deadline.",
+      "owner": "Sarah Jenkins",
+      "dueDate": "2026-10-08",
+      "priority": "High",
+      "status": "pending",
+      "createdAt": "2026-09-18T14:00:00Z",
+      "updatedAt": "2026-09-18T14:00:00Z"
+    },
+    {
+      "id": "task-4",
+      "dealId": "deal-3",
+      "stakeholderId": "sh-4",
+      "task": "Provide revised commercial pricing table aligned with Amitabh Sens ₹1.8 Cr budget cap.",
+      "owner": "Alex Morgan",
+      "dueDate": "2026-10-05",
+      "priority": "High",
+      "status": "in_progress",
+      "createdAt": "2026-09-20T09:00:00Z",
+      "updatedAt": "2026-09-20T09:00:00Z"
+    },
+    {
+      "id": "task-5",
+      "dealId": "deal-4",
+      "stakeholderId": "sh-5",
+      "task": "Legal team to approve updated master agreement indemnification clause.",
+      "owner": "David Rao",
+      "dueDate": "2026-10-04",
+      "priority": "Medium",
+      "status": "pending",
+      "createdAt": "2026-09-22T10:00:00Z",
+      "updatedAt": "2026-09-22T10:00:00Z"
+    }
+  ],
+  "events": [
+    {
+      "dealId": "deal-1",
+      "type": "memory_event",
+      "title": "Hindsight Memory Retained [Bank: deal-bank-deal-1]",
+      "description": "Retained: \"Interaction [Email]: Executed Automated Rescue Play: Deliver...\"",
+      "timestamp": "2026-09-28T16:35:28.354Z",
+      "id": "evt-1790613328874-qaph4"
+    },
+    {
+      "id": "evt-1790613328353",
+      "dealId": "deal-1",
+      "type": "interaction",
+      "title": "Email: Executed Automated Rescue Play: Delivered BYOK Enc...",
+      "description": "Participants: Alex Morgan, CITO Rajesh Subramanian, VP InfoSec Vikram Merchant",
+      "timestamp": "2026-09-28T16:35:28.353Z"
+    },
+    {
+      "dealId": "deal-1",
+      "type": "memory_event",
+      "title": "Hindsight Memory Retained [Bank: deal-bank-deal-1]",
+      "description": "Retained: \"Interaction [Email]: Executed Automated Rescue Play: Deliver...\"",
+      "timestamp": "2026-09-28T16:09:48.167Z",
+      "id": "evt-1790611789350-jyq97"
+    },
+    {
+      "id": "evt-1790611788163",
+      "dealId": "deal-1",
+      "type": "interaction",
+      "title": "Email: Executed Automated Rescue Play: Delivered BYOK Enc...",
+      "description": "Participants: Alex Morgan, CITO Rajesh Subramanian, VP InfoSec Vikram Merchant",
+      "timestamp": "2026-09-28T16:09:48.162Z"
+    },
+    {
+      "dealId": "deal-1",
+      "type": "memory_event",
+      "title": "Hindsight Memory Retained [Bank: deal-bank-deal-1]",
+      "description": "Retained: \"Interaction [Email]: Executed Automated Rescue Play: Deliver...\"",
+      "timestamp": "2026-09-28T15:49:46.508Z",
+      "id": "evt-1790610587802-iu5w77"
+    },
+    {
+      "id": "evt-1790610586505",
+      "dealId": "deal-1",
+      "type": "interaction",
+      "title": "Email: Executed Automated Rescue Play: Delivered BYOK Enc...",
+      "description": "Participants: Alex Morgan, CITO Rajesh Subramanian, VP InfoSec Vikram Merchant",
+      "timestamp": "2026-09-28T15:49:46.499Z"
+    },
+    {
+      "id": "evt-1",
+      "dealId": "deal-1",
+      "type": "interaction",
+      "title": "Initial Discovery Meeting",
+      "description": "Meeting held with CITO Rajesh Subramanian & Head of Channels Pooja Kulkarni.",
+      "timestamp": "2026-08-12T11:00:00Z"
+    },
+    {
+      "id": "evt-2",
+      "dealId": "deal-1",
+      "type": "memory_event",
+      "title": "Hindsight Memory Retained",
+      "description": "Extracted 4 core requirements and budget parameters into deal-bank-deal-1.",
+      "timestamp": "2026-08-12T12:35:00Z"
+    },
+    {
+      "id": "evt-3",
+      "dealId": "deal-1",
+      "type": "objection",
+      "title": "Security Blocker Raised",
+      "description": "VP of InfoSec Vikram Merchant raised objection regarding cloud KMS and key escrow.",
+      "timestamp": "2026-08-25T15:30:00Z"
+    },
+    {
+      "id": "evt-4",
+      "dealId": "deal-1",
+      "type": "memory_event",
+      "title": "Hindsight Memory Retained",
+      "description": "Stored customer-managed KMS constraint and Finacle competitor evaluation.",
+      "timestamp": "2026-08-25T16:50:00Z"
+    },
+    {
+      "id": "evt-5",
+      "dealId": "deal-1",
+      "type": "risk_alert",
+      "title": "Deal Risk Escalated to High",
+      "description": "Silence > 18 days combined with pending competitor meeting with Oracle FLEXCUBE.",
+      "timestamp": "2026-09-20T14:30:00Z"
+    }
+  ],
+  "memories": [
+    {
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Observation",
+      "content": "Interaction [Email]: Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.\nKey Points: Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.; Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.; Proposed 15-minute executive briefing slot for next Tuesday.\nCustomer Objections: KMS key escrow in public cloud (mitigated with BYOK blueprint)\nCompetitors Evaluated: Infosys Finacle; Oracle FLEXCUBE\nPricing/Commercial Context: Reiterated standard enterprise tier with complimentary 24/7 TAM.\nOur Commitments: Alex to facilitate CISO-to-CISO architecture review.",
+      "sourceInteractionId": "int-1790613328353",
+      "confidence": 0.92,
+      "timestamp": "2026-09-28T16:35:28.354Z",
+      "metadata": {
+        "cloudRetained": false,
+        "mode": "embedded_hindsight_engine",
+        "interactionType": "Email",
+        "participants": [
+          "Alex Morgan",
+          "CITO Rajesh Subramanian",
+          "VP InfoSec Vikram Merchant"
+        ],
+        "interactionDate": "2026-09-28T16:35:28.353Z"
+      },
+      "id": "mem-1790613328873-zo4x6x"
+    },
+    {
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Observation",
+      "content": "Interaction [Email]: Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.\nKey Points: Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.; Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.; Proposed 15-minute executive briefing slot for next Tuesday.\nCustomer Objections: KMS key escrow in public cloud (mitigated with BYOK blueprint)\nCompetitors Evaluated: Infosys Finacle; Oracle FLEXCUBE\nPricing/Commercial Context: Reiterated standard enterprise tier with complimentary 24/7 TAM.\nOur Commitments: Alex to facilitate CISO-to-CISO architecture review.",
+      "sourceInteractionId": "int-1790611788163",
+      "confidence": 0.92,
+      "timestamp": "2026-09-28T16:09:48.167Z",
+      "metadata": {
+        "cloudRetained": false,
+        "mode": "embedded_hindsight_engine",
+        "interactionType": "Email",
+        "participants": [
+          "Alex Morgan",
+          "CITO Rajesh Subramanian",
+          "VP InfoSec Vikram Merchant"
+        ],
+        "interactionDate": "2026-09-28T16:09:48.162Z"
+      },
+      "id": "mem-1790611789346-ncsk8p"
+    },
+    {
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Observation",
+      "content": "Interaction [Email]: Executed Automated Rescue Play: Delivered BYOK Encryption Whitepaper & Scheduled CISO Alignment.\nKey Points: Sent personalized note resolving Vikram Merchants on-prem HSM key escrow objection.; Provided third-party benchmark report showing sub-42ms latency in Mumbai testbed.; Proposed 15-minute executive briefing slot for next Tuesday.\nCustomer Objections: KMS key escrow in public cloud (mitigated with BYOK blueprint)\nCompetitors Evaluated: Infosys Finacle; Oracle FLEXCUBE\nPricing/Commercial Context: Reiterated standard enterprise tier with complimentary 24/7 TAM.\nOur Commitments: Alex to facilitate CISO-to-CISO architecture review.",
+      "sourceInteractionId": "int-1790610586505",
+      "confidence": 0.92,
+      "timestamp": "2026-09-28T15:49:46.508Z",
+      "metadata": {
+        "cloudRetained": false,
+        "mode": "embedded_hindsight_engine",
+        "interactionType": "Email",
+        "participants": [
+          "Alex Morgan",
+          "CITO Rajesh Subramanian",
+          "VP InfoSec Vikram Merchant"
+        ],
+        "interactionDate": "2026-09-28T15:49:46.499Z"
+      },
+      "id": "mem-1790610587800-kd6iaw"
+    },
+    {
+      "id": "mem-1",
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "World",
+      "content": "Aurora Solutions is a Tier-1 private bank in India migrating 8 million retail customer accounts to modern microservices by Q1 2027.",
+      "confidence": 0.98,
+      "timestamp": "2026-08-12T12:35:00Z"
+    },
+    {
+      "id": "mem-2",
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Experience",
+      "content": "Customer strictly mandates that all data and cryptographic keys remain within Indian geographic borders (Mumbai/Hyderabad) to satisfy Reserve Bank of India regulations.",
+      "confidence": 0.95,
+      "timestamp": "2026-08-12T12:35:00Z"
+    },
+    {
+      "id": "mem-3",
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Observation",
+      "content": "VP of InfoSec Vikram Merchant is an active blocker who favors incumbent vendor Infosys Finacle and insists on on-premise HSM integration.",
+      "confidence": 0.92,
+      "timestamp": "2026-08-25T16:50:00Z"
+    },
+    {
+      "id": "mem-4",
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Experience",
+      "content": "Alex Morgan promised Pooja Kulkarni a complimentary 24/7 dedicated Technical Account Manager to neutralize budget lock risk before Oct 15.",
+      "confidence": 0.96,
+      "timestamp": "2026-09-10T15:10:00Z"
+    },
+    {
+      "id": "mem-5",
+      "bankId": "deal-bank-deal-1",
+      "dealId": "deal-1",
+      "type": "Observation",
+      "content": "Competitor Oracle FLEXCUBE sales VP has a meeting booked with Vikram Merchant on September 28.",
+      "confidence": 0.89,
+      "timestamp": "2026-09-10T15:10:00Z"
+    }
+  ],
+  "settings": {
+    "currency": "INR",
+    "hindsightApiKey": "",
+    "hindsightBaseUrl": "https://api.hindsight.vectorize.io",
+    "groqApiKey": "",
+    "groqModel": "qwen/qwen3.8-27b",
+    "activeWorkspace": "Enterprise Sales"
+  }
+}
